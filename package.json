@@ -1,0 +1,21 @@
+{
+  "name": "interactively-remove-git-branches",
+  "version": "1.0.0",
+  "author": "Danny Peck",
+  "description": "Interactively remove your local git branches",
+  "main": "interactively-remove-git-branches.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dep/interactively-remove-git-branches"
+  },
+  "dependencies": {
+    "child_process": "1.0.2",
+    "fuzzy": "^0.1.3",
+    "inquirer": "^8.2.4",
+    "inquirer-checkbox-plus-prompt": "1.0.1",
+    "util": "0.12.4"
+  },
+  "resolutions": {
+    "**/ansi-regex": "^5.0.5"
+  }
+}
